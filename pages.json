@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/parkinginfo/parkinginfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车场信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/parkingrecord/parkingrecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停车记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myinfo/myinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/parkinginfo/parkinginfo",
+			"iconPath": "static/parkinginfo1.png",
+			"selectedIconPath": "static/parkinginfo2.png",
+			"text": "停车场信息"
+		}, {
+			"pagePath": "pages/parkingrecord/parkingrecord",
+			"iconPath": "static/parkingrecord1.png",
+			"selectedIconPath": "static/parkingrecord2.png",
+			"text": "停车记录"
+		},
+		{
+			"pagePath": "pages/myinfo/myinfo",
+			"iconPath": "static/myinfo1.png",
+			"selectedIconPath": "static/myinfo2.png",
+			"text": "个人资料"
+		}		
+		]
+	}
+}

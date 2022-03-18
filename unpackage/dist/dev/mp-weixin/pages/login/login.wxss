@@ -1,0 +1,9 @@
+
+.myinput{
+	background-color: #FFFFFF;
+	height: 50rpx;
+	font-size: 28rpx;
+	padding: 15rpx 25rpx;
+	margin-bottom: 30rpx;
+}
+

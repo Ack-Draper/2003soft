@@ -1,0 +1,6 @@
+let base ="http://172.16.18.51:8080"
+export const loginurl = base+"/app/user/pwd/login"
+export const parkqureyurl = base+"/app/park/query"
+export const parkingrecordurl = base+"/app/park/record"
+export const personaldataurl = base+"/app/user/personal/data"
+export const changenicknameurl = base+"/app/user/changeUserName"
